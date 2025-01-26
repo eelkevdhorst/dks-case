@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "dks-case"
+version = "0.1.0"
+description = ""
+authors = ["Eelke van der Horst <eelke.van.der.horst@postnl.nl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+boto3 = "^1.36.6"
+polars = "^1.21.0"
+fastapi = "^0.115.7"
+uvicorn = "^0.34.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
